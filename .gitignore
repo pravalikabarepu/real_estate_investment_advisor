@@ -1,3 +1,4 @@
+
 # Python cache
 __pycache__/
 *.py[cod]
@@ -11,7 +12,7 @@ venv/
 .env.*
 !.env.example
 
-# MLflow
+# MLflow tracking data
 mlflow.db
 mlflow.db-*
 mlruns/
@@ -21,5 +22,14 @@ mlartifacts/
 data/*.csv
 data/*.zip
 
-# Trained models and generated outputs
-models/
+# Ignore model files by default
+models/*
+
+# Allow files required by the Streamlit app
+!models/city_stats.json
+!models/classifier.joblib
+!models/regressor.joblib
+!models/clf_importance.csv
+!models/clf_metrics.json
+!models/reg_importance.csv
+!models/reg_metrics.json
