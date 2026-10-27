@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# MLflow
+mlflow.db
+mlflow.db-*
+mlruns/
+mlartifacts/
+
+# Housing datasets
+data/*.csv
+data/*.zip
+
+# Trained models and generated outputs
+models/
