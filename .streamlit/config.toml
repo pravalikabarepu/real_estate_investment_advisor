@@ -3,5 +3,5 @@
 base = "dark"
 backgroundColor = "#0E1117"
 secondaryBackgroundColor = "#1E2530"
-textColor = "#262730"
-primaryColor = "#FF4B4B"
+textColor = "#FAFAFA"
+primaryColor = "#00C853"
