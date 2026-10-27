@@ -13,7 +13,7 @@ DATA_DIR = BASE_DIR / "data"
 MODEL_DIR = BASE_DIR / "models"
 EDA_DIR = BASE_DIR / "eda_outputs"
 RAW_CSV = Path(r"C:\Users\Pravalika.b\Downloads\india_housing_prices.csv")
-CLEAN_CSV = DATA_DIR / "cleaned_housing.csv"
+CLEAN_CSV = DATA_DIR / "cleaned_housing_sample.csv"
 
 CURRENT_YEAR = 2026
 RANDOM_STATE = 42

@@ -22,6 +22,8 @@ mlartifacts/
 data/*.csv
 data/*.zip
 
+# Allow the deployment sample dataset
+!data/cleaned_housing_sample.csv
 # Ignore model files by default
 models/*
 
